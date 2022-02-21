@@ -348,3 +348,5 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+Travel/src/presentation/Travel.WebApi/TravelTourDatabase.sqlite3-shm
+Travel/src/presentation/Travel.WebApi/TravelTourDatabase.sqlite3-wal
