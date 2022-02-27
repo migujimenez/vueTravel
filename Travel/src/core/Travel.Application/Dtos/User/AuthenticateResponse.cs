@@ -12,7 +12,7 @@
             Id = user.Id;
             FirstName = user.FirstName;
             LastName = user.LastName;
-            Username = user.UserName;
+            Username = user.Username;
             Token = token;
         }
     }
