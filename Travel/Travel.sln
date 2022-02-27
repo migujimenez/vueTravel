@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Travel.Shared", "src\infras
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "presentation", "presentation", "{F5AE2AB7-7E79-4F5A-85F0-763095390076}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Travel.WebApi", "src\presentation\Travel.WebApi\Travel.WebApi.csproj", "{91AB36E8-3922-409D-8383-632AD54F2B9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Travel.WebApi", "src\presentation\Travel.WebApi\Travel.WebApi.csproj", "{91AB36E8-3922-409D-8383-632AD54F2B9C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Travel.Idendity", "src\infrastructure\Travel.Idendity\Travel.Idendity.csproj", "{B7DAE642-7BCC-4131-8AA0-5B11D8E3887D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,10 @@ Global
 		{91AB36E8-3922-409D-8383-632AD54F2B9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91AB36E8-3922-409D-8383-632AD54F2B9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91AB36E8-3922-409D-8383-632AD54F2B9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7DAE642-7BCC-4131-8AA0-5B11D8E3887D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7DAE642-7BCC-4131-8AA0-5B11D8E3887D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7DAE642-7BCC-4131-8AA0-5B11D8E3887D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7DAE642-7BCC-4131-8AA0-5B11D8E3887D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +66,7 @@ Global
 		{AFFD30C3-B0EE-4656-875D-8201DF0F8C0E} = {267C0187-CF0E-4048-ADCD-B39BEBE0FA93}
 		{F5AE2AB7-7E79-4F5A-85F0-763095390076} = {5A189BEA-42A2-4590-94C7-99A07BFB8A74}
 		{91AB36E8-3922-409D-8383-632AD54F2B9C} = {F5AE2AB7-7E79-4F5A-85F0-763095390076}
+		{B7DAE642-7BCC-4131-8AA0-5B11D8E3887D} = {267C0187-CF0E-4048-ADCD-B39BEBE0FA93}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0AEFD833-BA5C-48DB-8F78-7217EAB7B64D}
