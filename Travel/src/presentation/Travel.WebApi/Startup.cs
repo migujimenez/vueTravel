@@ -31,12 +31,12 @@ namespace Travel.WebApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddApplication();
-            services.AddInfrastructureData();
+            services.AddApplication(Configuration);
+            services.AddInfrastructureData(Configuration);
             services.AddInfrastructureShared(Configuration);
             services.AddInfrastructureIdentity(Configuration);
+            
             services.AddHttpContextAccessor();
-
             services.AddControllers();
 
             services.AddControllersWithViews(options =>
